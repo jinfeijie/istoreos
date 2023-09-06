@@ -23,6 +23,10 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install -y build-essential clang flex g++ gawk gcc-multilib gettext git libncurses5-dev libssl-dev python3-distutils rsync unzip zlib1g-dev file wget
 
+git submodule init
+git submodule update
+git submodule update --remote
+
 ./scripts/feeds update -a
 
 ./scripts/feeds install -a
