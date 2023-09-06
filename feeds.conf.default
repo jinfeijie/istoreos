@@ -7,5 +7,8 @@ src-git store https://github.com/linkease/istore.git;main
 # argon, etc.
 src-git third https://github.com/jjm2473/openwrt-third.git;main
 
+# NueXini, etc.
+src-git NueXini https://github.com/NueXini/NueXini_Packages.git;main
+
 # compat for 21.02
 src-git compat https://github.com/jjm2473/openwrt-compat.git;21.02
