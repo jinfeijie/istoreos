@@ -45,4 +45,4 @@ git commit -m "update"
 git checkout -b istore
 git push -f origin istore
 
-echo "结束了老铁"
+echo "结束了老铁,666"
